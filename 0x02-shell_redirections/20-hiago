@@ -1,0 +1,4 @@
+#!/bin/bash
+input_string=$(cat)
+output_string=$(echo "$input_string" | tr -d 'cC')
+echo "$output_string"
